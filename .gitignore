@@ -1,1 +1,14 @@
-this repo for 10 academy week0 projects
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+
+# VSCode
+.vscode/
