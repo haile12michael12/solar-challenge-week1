@@ -6,21 +6,22 @@ Establish a collaborative, version-controlled Python project structure for the S
 
 ## Project Structure
 
+solar-challenge-week1/
 ├── .vscode/
-│ └── settings.json
+│ └── settings.json # IDE configuration
 ├── .github/
 │ └── workflows/
-│ ├── ci.yml
-├── .gitignore
-├── requirements.txt
-├── README.md
-├── src/
-├── notebooks/
+│ └── ci.yml # CI pipeline
+├── .gitignore # Excludes data/, .ipynb_checkpoints/, etc.
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+├── src/ # Source code
+├── notebooks/ # Jupyter notebooks
 │ ├── **init**.py
 │ └── README.md
-├── tests/
+├── tests/ # Unit tests
 │ ├── **init**.py
-└── scripts/
+└── scripts/ # Utility scripts
 ├── **init**.py
 └── README.md
 
